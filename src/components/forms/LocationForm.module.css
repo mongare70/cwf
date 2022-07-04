@@ -7,14 +7,12 @@
 }
 
 .form-control input,
-.form-control label,
-.form-control textarea {
+.form-control label {
   display: block;
 }
 
 .form-control-invalid input,
-.form-control-invalid label,
-.form-control-invalid textarea {
+.form-control-invalid label {
   display: block;
 }
 
@@ -29,15 +27,15 @@
 .form-control input {
   font: inherit;
   padding: 0.5rem;
-  width: 50%;
-  max-width: 100%;
+  width: 100%;
+  max-width: 95%;
 }
 
 .form-control-invalid input {
   font: inherit;
   padding: 0.5rem;
-  width: 50%;
-  max-width: 100%;
+  width: 100%;
+  max-width: 95%;
 }
 
 .form-control input:focus {
@@ -59,7 +57,7 @@
 }
 
 .form-actions button {
-  width: 53%;
+  width: 99%;
   padding: 0.5rem;
   max-width: 100%;
   font: inherit;

@@ -1,0 +1,34 @@
+.section1 {
+  width: 40%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.title {
+  font-family: "Merriweather";
+  color: #679e62;
+  text-align: center;
+}
+
+.intro {
+  font-family: "Open Sans";
+}
+
+.table-data {
+  display: flex;
+}
+
+@media all and (max-width: 969px) {
+  .section1 {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

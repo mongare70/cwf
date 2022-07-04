@@ -37,12 +37,11 @@ const LocationForm = (props) => {
     }
 
     const locationData = {
-      latitude: enteredLatitude,
-      longitude: enteredLongitude,
+      latitude: parseFloat(enteredLatitude),
+      longitude: parseFloat(enteredLongitude),
     };
 
-    // props.onAddLocationData(locationData);
-    console.log(locationData);
+    props.onAddLocationData(locationData);
 
     resetLatitudeInput();
     resetLongitudeInput();
@@ -57,7 +56,7 @@ const LocationForm = (props) => {
     : classes["form-control"];
 
   return (
-    <form autoComplete="off" onSubmit={submitHandler}>
+    <form autoComplete="on" onSubmit={submitHandler}>
       {formHasError && (
         <p className={classes["error-text"]}>
           Please enter the required data below.
@@ -66,7 +65,7 @@ const LocationForm = (props) => {
       <div className={latitudeInputClasses}>
         <label htmlFor="latitude">Latitude:</label>
         <input
-          type="text"
+          type="number"
           id="latitude"
           value={enteredLatitude}
           onBlur={latitudeInputBlurHandler}
@@ -79,7 +78,7 @@ const LocationForm = (props) => {
       <div className={longitudeInputClasses}>
         <label htmlFor="longitude">Longitude:</label>
         <input
-          type="text"
+          type="number"
           id="longitude"
           value={enteredLongitude}
           onBlur={longitudeInputBlurHandler}
