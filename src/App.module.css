@@ -1,14 +1,18 @@
 .section1 {
+  font-family: "Merriweather";
   width: 40%;
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .section2 {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 1%;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+  margin-bottom: 5%;
 }
 
 .title {
@@ -17,12 +21,14 @@
   text-align: center;
 }
 
-.intro {
-  font-family: "Open Sans";
-}
-
 .table-data {
   display: flex;
+}
+
+.warning {
+  font-family: "Merriweather";
+  color: #e94a4a;
+  text-align: center;
 }
 
 @media all and (max-width: 969px) {
@@ -30,5 +36,28 @@
     width: auto;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .section2 {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .section2 th,
+  td {
+    font-size: 12px;
+  }
+}
+
+/* (1920x1080) Full HD Display */
+@media screen and (min-width: 1920px) {
+  .section1 {
+    width: 30%;
+  }
+
+  .section2 {
+    width: 40%;
+    margin-bottom: 0%;
   }
 }

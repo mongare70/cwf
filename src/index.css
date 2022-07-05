@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
-@import url("https://fonts.googleapis.com/css?family=Open Sans");
 
 html {
   background: url("components/assets/bg.png");
@@ -18,4 +17,16 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
