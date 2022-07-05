@@ -25,6 +25,8 @@ the hourly temp, wind, cloud cover, and relative humidity levels.
 #4. Usage
 The following screencast shows how to run the app. Check it out:
 
+https://user-images.githubusercontent.com/46082842/177393682-7082e99e-20c6-4d0e-b071-a4ff5f7fa3f2.mp4
+
 ## Credits
 
 1. [Hillary Mongare](https://github.com/mongare70)
