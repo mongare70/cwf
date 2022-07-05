@@ -9,6 +9,10 @@ The main objective of this project is to create a simple HOURLY weather forecast
 
 The end user simply adds the latitude and longitude for a given place and get the weather forecast for that day at that location (6am to 6pm).
 
+### Tool used
+
+React 18
+
 ## Which API?
 
 This application uses the [Weather Forecast API](https://open-meteo.com/en) to fetch
